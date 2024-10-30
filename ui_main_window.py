@@ -26,7 +26,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(951, 604)
+        MainWindow.resize(1179, 604)
         font = QFont()
         font.setPointSize(10)
         MainWindow.setFont(font)
@@ -35,8 +35,136 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName(u"centralwidget")
         self.horizontalLayout = QHBoxLayout(self.centralwidget)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
+        self.ledtMenu_closed = QWidget(self.centralwidget)
+        self.ledtMenu_closed.setObjectName(u"ledtMenu_closed")
+        self.ledtMenu_closed.setStyleSheet(u"border: 1px solid rgb(48, 64, 64);\n"
+                                           "color: rgb(48, 64, 64);\n"
+                                           "border-radius: 5px;\n"
+                                           "padding-top: 5px;\n"
+                                           "padding-bottom:5 px;\n"
+                                           "padding-left:5 px;\n"
+                                           "padding-right:5px;")
+        self.verticalLayout_22 = QVBoxLayout(self.ledtMenu_closed)
+        self.verticalLayout_22.setObjectName(u"verticalLayout_22")
+        self.widget_9 = QWidget(self.ledtMenu_closed)
+        self.widget_9.setObjectName(u"widget_9")
+        self.verticalLayout_21 = QVBoxLayout(self.widget_9)
+        self.verticalLayout_21.setObjectName(u"verticalLayout_21")
+        self.menuBtn_2 = QPushButton(self.widget_9)
+        self.menuBtn_2.setObjectName(u"menuBtn_2")
+        icon = QIcon()
+        icon.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/menu.png",
+                     QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.menuBtn_2.setIcon(icon)
+
+        self.verticalLayout_21.addWidget(self.menuBtn_2)
+
+        self.verticalLayout_22.addWidget(self.widget_9)
+
+        self.widget_8 = QWidget(self.ledtMenu_closed)
+        self.widget_8.setObjectName(u"widget_8")
+        self.verticalLayout_20 = QVBoxLayout(self.widget_8)
+        self.verticalLayout_20.setObjectName(u"verticalLayout_20")
+        self.pushButton_13 = QPushButton(self.widget_8)
+        self.pushButton_13.setObjectName(u"pushButton_13")
+        self.pushButton_13.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+                                         "font: 700 9pt \"Segoe UI\";")
+        icon1 = QIcon()
+        icon1.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/home.png",
+                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.pushButton_13.setIcon(icon1)
+
+        self.verticalLayout_20.addWidget(self.pushButton_13)
+
+        self.pushButton_14 = QPushButton(self.widget_8)
+        self.pushButton_14.setObjectName(u"pushButton_14")
+        self.pushButton_14.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+                                         "font: 700 9pt \"Segoe UI\";")
+        icon2 = QIcon()
+        icon2.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/list.png",
+                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.pushButton_14.setIcon(icon2)
+
+        self.verticalLayout_20.addWidget(self.pushButton_14)
+
+        self.pushButton_15 = QPushButton(self.widget_8)
+        self.pushButton_15.setObjectName(u"pushButton_15")
+        self.pushButton_15.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+                                         "font: 700 9pt \"Segoe UI\";")
+        icon3 = QIcon()
+        icon3.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/printer.png",
+                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.pushButton_15.setIcon(icon3)
+
+        self.verticalLayout_20.addWidget(self.pushButton_15)
+
+        self.pushButton_16 = QPushButton(self.widget_8)
+        self.pushButton_16.setObjectName(u"pushButton_16")
+        self.pushButton_16.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+                                         "font: 700 9pt \"Segoe UI\";")
+        icon4 = QIcon()
+        icon4.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/pie-chart.png",
+                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.pushButton_16.setIcon(icon4)
+
+        self.verticalLayout_20.addWidget(self.pushButton_16)
+
+        self.verticalLayout_22.addWidget(self.widget_8)
+
+        self.verticalSpacer_4 = QSpacerItem(
+            20, 239, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+
+        self.verticalLayout_22.addItem(self.verticalSpacer_4)
+
+        self.widget_7 = QWidget(self.ledtMenu_closed)
+        self.widget_7.setObjectName(u"widget_7")
+        self.verticalLayout_19 = QVBoxLayout(self.widget_7)
+        self.verticalLayout_19.setObjectName(u"verticalLayout_19")
+        self.pushButton_9 = QPushButton(self.widget_7)
+        self.pushButton_9.setObjectName(u"pushButton_9")
+        self.pushButton_9.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+                                        "font: 700 9pt \"Segoe UI\";")
+        icon5 = QIcon()
+        icon5.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/settings.png",
+                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.pushButton_9.setIcon(icon5)
+        self.pushButton_9.setCheckable(True)
+
+        self.verticalLayout_19.addWidget(self.pushButton_9)
+
+        self.pushButton_11 = QPushButton(self.widget_7)
+        self.pushButton_11.setObjectName(u"pushButton_11")
+        self.pushButton_11.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+                                         "font: 700 9pt \"Segoe UI\";")
+        icon6 = QIcon()
+        icon6.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/info.png",
+                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.pushButton_11.setIcon(icon6)
+
+        self.verticalLayout_19.addWidget(self.pushButton_11)
+
+        self.pushButton_12 = QPushButton(self.widget_7)
+        self.pushButton_12.setObjectName(u"pushButton_12")
+        self.pushButton_12.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+                                         "font: 700 9pt \"Segoe UI\";")
+        icon7 = QIcon()
+        icon7.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/help-circle.png",
+                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.pushButton_12.setIcon(icon7)
+
+        self.verticalLayout_19.addWidget(self.pushButton_12)
+
+        self.verticalLayout_22.addWidget(self.widget_7)
+
+        self.horizontalLayout.addWidget(self.ledtMenu_closed)
+
         self.leftMenu = QWidget(self.centralwidget)
         self.leftMenu.setObjectName(u"leftMenu")
+        self.leftMenu.setStyleSheet(u"border: 1px solid rgb(48, 64, 64);\n"
+                                    "color: rgb(48, 64, 64);\n"
+                                    "border-radius: 5px;\n"
+                                    "padding-top: 5px;\n"
+                                    "padding-bottom:5 px;")
         self.verticalLayout = QVBoxLayout(self.leftMenu)
         self.verticalLayout.setObjectName(u"verticalLayout")
         self.widget = QWidget(self.leftMenu)
@@ -45,15 +173,14 @@ class Ui_MainWindow(object):
         self.verticalLayout_2.setObjectName(u"verticalLayout_2")
         self.menuBtn = QPushButton(self.widget)
         self.menuBtn.setObjectName(u"menuBtn")
-        icon = QIcon()
-        icon.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/menu.png",
-                     QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.menuBtn.setEnabled(True)
+        self.menuBtn.setStyleSheet(u"padding-top: 5px;\n"
+                                   "padding-bottom:5 px;")
         self.menuBtn.setIcon(icon)
 
         self.verticalLayout_2.addWidget(self.menuBtn)
 
-        self.verticalLayout.addWidget(
-            self.widget, 0, Qt.AlignmentFlag.AlignTop)
+        self.verticalLayout.addWidget(self.widget)
 
         self.widget_3 = QWidget(self.leftMenu)
         self.widget_3.setObjectName(u"widget_3")
@@ -62,10 +189,9 @@ class Ui_MainWindow(object):
         self.pushButton = QPushButton(self.widget_3)
         self.pushButton.setObjectName(u"pushButton")
         self.pushButton.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-                                      "font: 700 9pt \"Segoe UI\";")
-        icon1 = QIcon()
-        icon1.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/home.png",
-                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+                                      "font: 700 9pt \"Segoe UI\";\n"
+                                      "padding-top: 5px;\n"
+                                      "padding-bottom:5 px;")
         self.pushButton.setIcon(icon1)
 
         self.verticalLayout_3.addWidget(self.pushButton)
@@ -73,10 +199,9 @@ class Ui_MainWindow(object):
         self.pushButton_2 = QPushButton(self.widget_3)
         self.pushButton_2.setObjectName(u"pushButton_2")
         self.pushButton_2.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-                                        "font: 700 9pt \"Segoe UI\";")
-        icon2 = QIcon()
-        icon2.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/list.png",
-                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+                                        "font: 700 9pt \"Segoe UI\";\n"
+                                        "padding-top: 5px;\n"
+                                        "padding-bottom:5 px;")
         self.pushButton_2.setIcon(icon2)
 
         self.verticalLayout_3.addWidget(self.pushButton_2)
@@ -84,10 +209,9 @@ class Ui_MainWindow(object):
         self.pushButton_3 = QPushButton(self.widget_3)
         self.pushButton_3.setObjectName(u"pushButton_3")
         self.pushButton_3.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-                                        "font: 700 9pt \"Segoe UI\";")
-        icon3 = QIcon()
-        icon3.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/printer.png",
-                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+                                        "font: 700 9pt \"Segoe UI\";\n"
+                                        "padding-top: 5px;\n"
+                                        "padding-bottom:5 px;")
         self.pushButton_3.setIcon(icon3)
 
         self.verticalLayout_3.addWidget(self.pushButton_3)
@@ -95,16 +219,14 @@ class Ui_MainWindow(object):
         self.pushButton_4 = QPushButton(self.widget_3)
         self.pushButton_4.setObjectName(u"pushButton_4")
         self.pushButton_4.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-                                        "font: 700 9pt \"Segoe UI\";")
-        icon4 = QIcon()
-        icon4.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/pie-chart.png",
-                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+                                        "font: 700 9pt \"Segoe UI\";\n"
+                                        "padding-top: 5px;\n"
+                                        "padding-bottom:5 px;")
         self.pushButton_4.setIcon(icon4)
 
         self.verticalLayout_3.addWidget(self.pushButton_4)
 
-        self.verticalLayout.addWidget(
-            self.widget_3, 0, Qt.AlignmentFlag.AlignTop)
+        self.verticalLayout.addWidget(self.widget_3)
 
         self.verticalSpacer = QSpacerItem(
             20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
@@ -118,10 +240,9 @@ class Ui_MainWindow(object):
         self.pushButton_5 = QPushButton(self.widget_2)
         self.pushButton_5.setObjectName(u"pushButton_5")
         self.pushButton_5.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-                                        "font: 700 9pt \"Segoe UI\";")
-        icon5 = QIcon()
-        icon5.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/settings.png",
-                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+                                        "font: 700 9pt \"Segoe UI\";\n"
+                                        "padding-top: 5px;\n"
+                                        "padding-bottom:5 px;")
         self.pushButton_5.setIcon(icon5)
 
         self.verticalLayout_4.addWidget(self.pushButton_5)
@@ -129,10 +250,9 @@ class Ui_MainWindow(object):
         self.pushButton_6 = QPushButton(self.widget_2)
         self.pushButton_6.setObjectName(u"pushButton_6")
         self.pushButton_6.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-                                        "font: 700 9pt \"Segoe UI\";")
-        icon6 = QIcon()
-        icon6.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/info.png",
-                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+                                        "font: 700 9pt \"Segoe UI\";\n"
+                                        "padding-top: 5px;\n"
+                                        "padding-bottom:5 px;")
         self.pushButton_6.setIcon(icon6)
 
         self.verticalLayout_4.addWidget(self.pushButton_6)
@@ -140,35 +260,42 @@ class Ui_MainWindow(object):
         self.pushButton_7 = QPushButton(self.widget_2)
         self.pushButton_7.setObjectName(u"pushButton_7")
         self.pushButton_7.setStyleSheet(u"color: rgb(255, 255, 255);\n"
-                                        "font: 700 9pt \"Segoe UI\";")
-        icon7 = QIcon()
-        icon7.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/help-circle.png",
-                      QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+                                        "font: 700 9pt \"Segoe UI\";\n"
+                                        "padding-top: 5px;\n"
+                                        "padding-bottom:5 px;")
         self.pushButton_7.setIcon(icon7)
 
         self.verticalLayout_4.addWidget(self.pushButton_7)
 
-        self.verticalLayout.addWidget(
-            self.widget_2, 0, Qt.AlignmentFlag.AlignBottom)
+        self.verticalLayout.addWidget(self.widget_2)
 
         self.horizontalLayout.addWidget(self.leftMenu)
 
         self.centerMenu = QWidget(self.centralwidget)
         self.centerMenu.setObjectName(u"centerMenu")
         self.centerMenu.setMaximumSize(QSize(200, 16777215))
+        self.centerMenu.setStyleSheet(u"border: 1px solid rgb(48, 64, 64);\n"
+                                      "color: rgb(48, 64, 64);\n"
+                                      "border-radius: 5px;\n"
+                                      "")
         self.verticalLayout_5 = QVBoxLayout(self.centerMenu)
         self.verticalLayout_5.setObjectName(u"verticalLayout_5")
         self.widget_4 = QWidget(self.centerMenu)
         self.widget_4.setObjectName(u"widget_4")
+        self.widget_4.setStyleSheet(u"border-color: rgb(48, 64, 64);")
         self.horizontalLayout_2 = QHBoxLayout(self.widget_4)
         self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
         self.label = QLabel(self.widget_4)
         self.label.setObjectName(u"label")
+        self.label.setStyleSheet(u"padding-top: 5px;\n"
+                                 "padding-bottom:5 px;")
 
         self.horizontalLayout_2.addWidget(self.label)
 
         self.pushButton_8 = QPushButton(self.widget_4)
         self.pushButton_8.setObjectName(u"pushButton_8")
+        self.pushButton_8.setStyleSheet(u"padding-top: 5px;\n"
+                                        "padding-bottom:5 px;")
         icon8 = QIcon()
         icon8.addFile(u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/x-circle.png",
                       QSize(), QIcon.Mode.Normal, QIcon.State.Off)
@@ -182,6 +309,8 @@ class Ui_MainWindow(object):
         self.stackedWidget.setObjectName(u"stackedWidget")
         self.setthingsPage = QWidget()
         self.setthingsPage.setObjectName(u"setthingsPage")
+        self.setthingsPage.setStyleSheet(u"border:None;\n"
+                                         "")
         self.verticalLayout_6 = QVBoxLayout(self.setthingsPage)
         self.verticalLayout_6.setObjectName(u"verticalLayout_6")
         self.verticalSpacer_3 = QSpacerItem(
@@ -191,6 +320,7 @@ class Ui_MainWindow(object):
 
         self.widget_5 = QWidget(self.setthingsPage)
         self.widget_5.setObjectName(u"widget_5")
+        self.widget_5.setMinimumSize(QSize(0, 0))
         self.verticalLayout_7 = QVBoxLayout(self.widget_5)
         self.verticalLayout_7.setObjectName(u"verticalLayout_7")
         self.label_2 = QLabel(self.widget_5)
@@ -228,6 +358,8 @@ class Ui_MainWindow(object):
         self.stackedWidget.addWidget(self.setthingsPage)
         self.informationPage = QWidget()
         self.informationPage.setObjectName(u"informationPage")
+        self.informationPage.setStyleSheet(u"border:None;\n"
+                                           "")
         self.verticalLayout_8 = QVBoxLayout(self.informationPage)
         self.verticalLayout_8.setObjectName(u"verticalLayout_8")
         self.label_4 = QLabel(self.informationPage)
@@ -240,6 +372,7 @@ class Ui_MainWindow(object):
         self.stackedWidget.addWidget(self.informationPage)
         self.helpPage = QWidget()
         self.helpPage.setObjectName(u"helpPage")
+        self.helpPage.setStyleSheet(u"border:None;")
         self.verticalLayout_9 = QVBoxLayout(self.helpPage)
         self.verticalLayout_9.setObjectName(u"verticalLayout_9")
         self.label_5 = QLabel(self.helpPage)
@@ -264,6 +397,11 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(
             self.mainBody.sizePolicy().hasHeightForWidth())
         self.mainBody.setSizePolicy(sizePolicy)
+        self.mainBody.setStyleSheet(u"border: 1px solid rgb(48, 64, 64);\n"
+                                    "color: rgb(48, 64, 64);\n"
+                                    "border-radius: 5px;\n"
+                                    "padding-top: 5px;\n"
+                                    "padding-bottom:5 px;")
         self.verticalLayout_10 = QVBoxLayout(self.mainBody)
         self.verticalLayout_10.setObjectName(u"verticalLayout_10")
         self.header = QWidget(self.mainBody)
@@ -319,16 +457,28 @@ class Ui_MainWindow(object):
         self.searchInpCont.setFrameShape(QFrame.Shape.StyledPanel)
         self.searchInpCont.setFrameShadow(QFrame.Shadow.Raised)
         self.horizontalLayout_8 = QHBoxLayout(self.searchInpCont)
-        self.horizontalLayout_8.setSpacing(0)
+        self.horizontalLayout_8.setSpacing(5)
         self.horizontalLayout_8.setObjectName(u"horizontalLayout_8")
         self.horizontalLayout_8.setContentsMargins(5, 5, 5, 5)
         self.label_9 = QLabel(self.searchInpCont)
         self.label_9.setObjectName(u"label_9")
-        self.label_9.setMinimumSize(QSize(16, 16))
-        self.label_9.setMaximumSize(QSize(16, 16))
+        sizePolicy1 = QSizePolicy(
+            QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+        sizePolicy1.setHorizontalStretch(16)
+        sizePolicy1.setVerticalStretch(16)
+        sizePolicy1.setHeightForWidth(
+            self.label_9.sizePolicy().hasHeightForWidth())
+        self.label_9.setSizePolicy(sizePolicy1)
+        self.label_9.setMinimumSize(QSize(10, 20))
+        self.label_9.setMaximumSize(QSize(16, 50))
+        self.label_9.setSizeIncrement(QSize(16, 16))
+        self.label_9.setBaseSize(QSize(16, 16))
+        self.label_9.setStyleSheet(u"")
         self.label_9.setPixmap(QPixmap(
             u":/icons_png/C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/search.png"))
         self.label_9.setScaledContents(True)
+        self.label_9.setAlignment(Qt.AlignmentFlag.AlignLeading |
+                                  Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter)
 
         self.horizontalLayout_8.addWidget(self.label_9)
 
@@ -397,22 +547,19 @@ class Ui_MainWindow(object):
         self.horizontalLayout_10.setContentsMargins(5, 5, 5, 5)
         self.mainPagesCont = QWidget(self.mainContents)
         self.mainPagesCont.setObjectName(u"mainPagesCont")
+        self.mainPagesCont.setMinimumSize(QSize(600, 0))
+        self.mainPagesCont.setMaximumSize(QSize(200000, 200000))
         self.verticalLayout_11 = QVBoxLayout(self.mainPagesCont)
         self.verticalLayout_11.setSpacing(5)
         self.verticalLayout_11.setObjectName(u"verticalLayout_11")
         self.verticalLayout_11.setContentsMargins(5, 5, 5, 5)
         self.stackedWidget_2 = QStackedWidget(self.mainPagesCont)
         self.stackedWidget_2.setObjectName(u"stackedWidget_2")
+        self.stackedWidget_2.setMinimumSize(QSize(20, 20))
         self.homePage = QWidget()
         self.homePage.setObjectName(u"homePage")
         self.verticalLayout_12 = QVBoxLayout(self.homePage)
         self.verticalLayout_12.setObjectName(u"verticalLayout_12")
-        self.label_8 = QLabel(self.homePage)
-        self.label_8.setObjectName(u"label_8")
-        self.label_8.setAlignment(Qt.AlignmentFlag.AlignCenter)
-
-        self.verticalLayout_12.addWidget(self.label_8)
-
         self.stackedWidget_2.addWidget(self.homePage)
         self.dataAnalysisPage = QWidget()
         self.dataAnalysisPage.setObjectName(u"dataAnalysisPage")
@@ -454,7 +601,15 @@ class Ui_MainWindow(object):
 
         self.rightMenu = QWidget(self.mainContents)
         self.rightMenu.setObjectName(u"rightMenu")
-        self.rightMenu.setMinimumSize(QSize(200, 0))
+        sizePolicy2 = QSizePolicy(
+            QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Preferred)
+        sizePolicy2.setHorizontalStretch(0)
+        sizePolicy2.setVerticalStretch(0)
+        sizePolicy2.setHeightForWidth(
+            self.rightMenu.sizePolicy().hasHeightForWidth())
+        self.rightMenu.setSizePolicy(sizePolicy2)
+        self.rightMenu.setMinimumSize(QSize(0, 0))
+        self.rightMenu.setMaximumSize(QSize(150, 16777215))
         self.verticalLayout_15 = QVBoxLayout(self.rightMenu)
         self.verticalLayout_15.setSpacing(5)
         self.verticalLayout_15.setObjectName(u"verticalLayout_15")
@@ -566,8 +721,13 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
+        self.menuBtn_2.clicked.connect(self.ledtMenu_closed.hide)
+        self.menuBtn_2.clicked.connect(self.leftMenu.show)
+        self.menuBtn.clicked.connect(self.leftMenu.hide)
+        self.menuBtn.clicked.connect(self.ledtMenu_closed.show)
 
-        self.stackedWidget_2.setCurrentIndex(3)
+        self.stackedWidget_2.setCurrentIndex(0)
+        self.stackedWidget_3.setCurrentIndex(0)
 
         QMetaObject.connectSlotsByName(MainWindow)
     # setupUi
@@ -575,6 +735,14 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate(
             "MainWindow", u"MainWindow", None))
+        self.menuBtn_2.setText("")
+        self.pushButton_13.setText("")
+        self.pushButton_14.setText("")
+        self.pushButton_15.setText("")
+        self.pushButton_16.setText("")
+        self.pushButton_9.setText("")
+        self.pushButton_11.setText("")
+        self.pushButton_12.setText("")
         self.menuBtn.setText("")
         self.pushButton.setText(
             QCoreApplication.translate("MainWindow", u"Home", None))
@@ -614,8 +782,6 @@ class Ui_MainWindow(object):
         self.minimizeBtn.setText("")
         self.restoreBtn.setText("")
         self.closeBtn.setText("")
-        self.label_8.setText(QCoreApplication.translate(
-            "MainWindow", u"Home Page", None))
         self.label_10.setText(QCoreApplication.translate(
             "MainWindow", u"Data Analysis", None))
         self.label_11.setText(QCoreApplication.translate(

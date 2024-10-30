@@ -5,6 +5,14 @@ name = "pypi"
 
 [packages]
 pyside6 = "*"
+pandas = "*"
+matplotlib = "*"
+mplfinance = "*"
+pyqtgraph = "*"
+yfinance = "*"
+websocket-client = "*"
+dash = "*"
+plotly = "*"
 
 [dev-packages]
 
