@@ -19,7 +19,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(91, 112, 101);</string>
+   <string notr="true">background-color:#04202C;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -856,7 +856,17 @@ padding-bottom:5 px;</string>
                 <number>0</number>
                </property>
                <widget class="QWidget" name="homePage">
-                <layout class="QVBoxLayout" name="verticalLayout_12"/>
+                <layout class="QVBoxLayout" name="verticalLayout_12">
+                 <item>
+                  <widget class="QWebEngineView" name="web_view">
+                   <property name="url">
+                    <url>
+                     <string>about:blank</string>
+                    </url>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
                </widget>
                <widget class="QWidget" name="dataAnalysisPage">
                 <layout class="QVBoxLayout" name="verticalLayout_13">
@@ -1102,6 +1112,13 @@ padding-bottom:5 px;</string>
    </layout>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="resources_file.qrc"/>
  </resources>

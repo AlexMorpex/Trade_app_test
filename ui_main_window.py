@@ -15,6 +15,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
                            QFont, QFontDatabase, QGradient, QIcon,
                            QImage, QKeySequence, QLinearGradient, QPainter,
                            QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWebEngineWidgets import QWebEngineView
 from PySide6.QtWidgets import (QApplication, QComboBox, QFrame, QHBoxLayout,
                                QLabel, QLineEdit, QMainWindow, QProgressBar,
                                QPushButton, QSizePolicy, QSpacerItem, QStackedWidget,
@@ -30,7 +31,7 @@ class Ui_MainWindow(object):
         font = QFont()
         font.setPointSize(10)
         MainWindow.setFont(font)
-        MainWindow.setStyleSheet(u"background-color: rgb(91, 112, 101);")
+        MainWindow.setStyleSheet(u"background-color:#04202C;")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.horizontalLayout = QHBoxLayout(self.centralwidget)
@@ -560,6 +561,12 @@ class Ui_MainWindow(object):
         self.homePage.setObjectName(u"homePage")
         self.verticalLayout_12 = QVBoxLayout(self.homePage)
         self.verticalLayout_12.setObjectName(u"verticalLayout_12")
+        self.web_view = QWebEngineView(self.homePage)
+        self.web_view.setObjectName(u"web_view")
+        self.web_view.setUrl(QUrl(u"about:blank"))
+
+        self.verticalLayout_12.addWidget(self.web_view)
+
         self.stackedWidget_2.addWidget(self.homePage)
         self.dataAnalysisPage = QWidget()
         self.dataAnalysisPage.setObjectName(u"dataAnalysisPage")

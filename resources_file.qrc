@@ -329,4 +329,8 @@
     <file>C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/zoom-in.png</file>
     <file>C:/Users/Morpex/Desktop/24-Modern GUI exe/main/Qss/icons/fefefe/feather/zoom-out.png</file>
   </qresource>
+  <qresource prefix="Logo">
+    <file>icons/right_logo.png</file>
+    <file>icons/right_logo2.png</file>
+  </qresource>
 </RCC>
