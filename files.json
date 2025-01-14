@@ -1,0 +1,172 @@
+{
+    "Logger.ui": {
+        "Path": "Logger.ui",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/Logger.ui",
+        "sha256": "d91e5ba37d7593c23c70e9193af2136fa2b539e4965c13e5a0205415e616ef1f"
+    },
+    "Pipfile": {
+        "Path": "Pipfile",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/Pipfile",
+        "sha256": "7defccead1c83673db314812da57f5324ce94bda11726bcb697588ecac3dc263"
+    },
+    "Pipfile.lock": {
+        "Path": "Pipfile.lock",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/Pipfile.lock",
+        "sha256": "e0aef283b515726829ef5de559e6936cd36c8fcba6e1548d94112d3ec8caac97"
+    },
+    "main.cpython-313.pyc": {
+        "Path": "__pycache__/main.cpython-313.pyc",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/__pycache__/main.cpython-313.pyc",
+        "sha256": "a03517fd7ea509647e58249f687970f72a80204a2ab5c598414861d37ec74ef1"
+    },
+    "page_switchers.cpython-313.pyc": {
+        "Path": "__pycache__/page_switchers.cpython-313.pyc",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/__pycache__/page_switchers.cpython-313.pyc",
+        "sha256": "f5520fb962086332d01f48dca5235011d58615aefe7b13bdbb780df726feb603"
+    },
+    "resources_file_rc.cpython-313.pyc": {
+        "Path": "__pycache__/resources_file_rc.cpython-313.pyc",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/__pycache__/resources_file_rc.cpython-313.pyc",
+        "sha256": "edd39cb0d0728926604ba7183f490bad826ebe0324e3e65b6ee66c0a5e02a161"
+    },
+    "ui_Logger_window.cpython-313.pyc": {
+        "Path": "__pycache__/ui_Logger_window.cpython-313.pyc",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/__pycache__/ui_Logger_window.cpython-313.pyc",
+        "sha256": "eea1b8192e9416726ef11d529be2c72c8ea53af93c4c9c04c85abdbf8fa44c60"
+    },
+    "ui_main_window.cpython-313.pyc": {
+        "Path": "__pycache__/ui_main_window.cpython-313.pyc",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/__pycache__/ui_main_window.cpython-313.pyc",
+        "sha256": "bff57570710528ae5e0e084f840c7b5b091d34f996423b66ce2103bb9eed246b"
+    },
+    "color_template.PNG": {
+        "Path": "color_template.PNG",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/color_template.PNG",
+        "sha256": "34b3c578ab72deac53ce6beae979d0a6f9d997413716d495c04949de834d2e58"
+    },
+    "favicon.ico": {
+        "Path": "favicon.ico",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/favicon.ico",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "back.svg": {
+        "Path": "icons/back.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/back.svg",
+        "sha256": "c9174c88ab1af9ac149b6c7f244feb115db4acd4daec52276c5044a0ca3eea29"
+    },
+    "filesave.svg": {
+        "Path": "icons/filesave.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/filesave.svg",
+        "sha256": "a313d56cb4bd3f37a5cfbd42d46089581df80d9d2cc7fa5454f44706b099ac6b"
+    },
+    "forward.svg": {
+        "Path": "icons/forward.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/forward.svg",
+        "sha256": "36740339e9df8ec9fea346893147c4aeb3f7db465cc7d5c76642e1d1c8cc1ec9"
+    },
+    "hand.svg": {
+        "Path": "icons/hand.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/hand.svg",
+        "sha256": "b6c548112fe720dac06c7e05a9db0218ec74495137eef7287d26018679da38fd"
+    },
+    "help.svg": {
+        "Path": "icons/help.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/help.svg",
+        "sha256": "29769bbd086a2167a7fedd92bd9b9d74561add2d222375bc7002a6decd5f23c4"
+    },
+    "home.svg": {
+        "Path": "icons/home.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/home.svg",
+        "sha256": "9ff028b232555c44f731cca616e1e05db52be6f30b7572b63c3820857f02721e"
+    },
+    "matplotlib.svg": {
+        "Path": "icons/matplotlib.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/matplotlib.svg",
+        "sha256": "4224c872a950c066953ed1ec124fafb66264d70c70652be28e1a817bf6fd5422"
+    },
+    "move.svg": {
+        "Path": "icons/move.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/move.svg",
+        "sha256": "fd92a9730183e8331391995bca3d2741b4fc620b79bec9446743aa5da5c67781"
+    },
+    "qt4_editor_options.svg": {
+        "Path": "icons/qt4_editor_options.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/qt4_editor_options.svg",
+        "sha256": "134d18a17eeee0daf13079bf2f54ccf0f0c9f3c6d7e6a45d0ab3be523e7d0840"
+    },
+    "right_logo.png": {
+        "Path": "icons/right_logo.png",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/right_logo.png",
+        "sha256": "2a51c3091ac731618806dc077806e3c23004993038ed584dee24a89117e0507a"
+    },
+    "right_logo.svg": {
+        "Path": "icons/right_logo.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/right_logo.svg",
+        "sha256": "e139bca6ce33ad198653d9f5a087a2bf524ea3efbef6533a567c06b09936a547"
+    },
+    "right_logo2.png": {
+        "Path": "icons/right_logo2.png",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/right_logo2.png",
+        "sha256": "7567e3c21c18acdfeb1f7f0f3750a1d4d9025551c289c4cd7e3c238ebd330d33"
+    },
+    "subplots.svg": {
+        "Path": "icons/subplots.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/subplots.svg",
+        "sha256": "f1a701a205c8afd3961a7d620fa9949206a17456600f26f0c37f39ccb08ba08b"
+    },
+    "tradingview-logo-vector.svg": {
+        "Path": "icons/tradingview-logo-vector.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/tradingview-logo-vector.svg",
+        "sha256": "d0873170eee3832175192e7deb8b5f9cc68065a2799ab79b22386cf788b2d1fe"
+    },
+    "zoom_to_rect.svg": {
+        "Path": "icons/zoom_to_rect.svg",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/zoom_to_rect.svg",
+        "sha256": "d6f471af7725f104f04ee4654330f58f1bb47d76687d32763cc806f7b13b05ca"
+    },
+    "main.py": {
+        "Path": "main.py",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/main.py",
+        "sha256": "67f34a143868811ff8be5db51e09777462385cd30cc82eff49f3961e8e9f3dd3"
+    },
+    "page_switchers.py": {
+        "Path": "page_switchers.py",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/page_switchers.py",
+        "sha256": "7516120d83d0b33999153bff4fdc6b82168f622ce1ac1d470b9fcc43905c696f"
+    },
+    "resources_file.qrc": {
+        "Path": "resources_file.qrc",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/resources_file.qrc",
+        "sha256": "af6563abaa0e68b5938a7054709383681c8565b80a9aaa79f36cbcb540ac9489"
+    },
+    "resources_file_rc.py": {
+        "Path": "resources_file_rc.py",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/resources_file_rc.py",
+        "sha256": "efeabd71803897275f8d84352d8064368d802035f0e88167b3592dde05762bf4"
+    },
+    "chart.html": {
+        "Path": "templates/chart.html",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/templates/chart.html",
+        "sha256": "0ddd5e6c49e2506f726f2eb66ffec525f90c5c27e8c033fdf84ce4ac92e911b3"
+    },
+    "try_to_open.py": {
+        "Path": "try_to_open.py",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/try_to_open.py",
+        "sha256": "dc741217801ce13df39e2addbe284e45d10f93387c6476804672a5622d139c15"
+    },
+    "ui_Logger_window.py": {
+        "Path": "ui_Logger_window.py",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/ui_Logger_window.py",
+        "sha256": "af6d8c64b7a73a86567e58035c5a5bbd3ccce58d3d1fecadce88b15ae3da03b8"
+    },
+    "ui_main_window.py": {
+        "Path": "ui_main_window.py",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/ui_main_window.py",
+        "sha256": "2a536a122c23e82ca882d15ee9d8ad21b1d28721c3e0a7dfd834c549630fc61f"
+    },
+    "ui_main_window.ui": {
+        "Path": "ui_main_window.ui",
+        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/ui_main_window.ui",
+        "sha256": "e4bba886cfbcc51d9d37290b933c758d9c18a5813b828aa69a5d805310c0d469"
+    }
+}
