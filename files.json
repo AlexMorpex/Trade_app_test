@@ -49,11 +49,6 @@
         "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/favicon.ico",
         "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
-    "files.json": {
-        "Path": "files.json",
-        "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/files.json",
-        "sha256": "dee50bf2ea836efe84ae851d2ee9a60e405dd07d8690794a4ea1a4488d04cb15"
-    },
     "back.svg": {
         "Path": "icons/back.svg",
         "raw_url": "https://raw.githubusercontent.com/AlexMorpex/Trade_app_test/main/icons/back.svg",
